@@ -1,0 +1,70 @@
+p{
+    margin-bottom: 0%;
+}
+
+.texto p{
+    margin-left: 7vh;
+    text-align: justify;
+    text-indent: 5vh;
+}
+
+.fondo{
+    background-color: #f8f9fa;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.space{  
+    margin-left:78px;
+}
+
+.card {    
+    /* Add shadows to create the "card" effect */
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);    
+      transition: 0.3s;     
+      border-radius: 4px;
+     /* 4px rounded corners */   
+}   
+
+ /* On mouse-over, add a deeper shadow */   
+.card:hover {     
+       box-shadow: 0 2px 4px 0 rgb(190,221,207);   
+}     
+
+/* Add some padding inside the card container */   
+.container {     
+    padding: 2px 16px;  
+}   
+
+ img {     
+     border-radius: 4px 4px 0 0;   
+}
+
+
+footer{
+    background-color:#198754;
+    color: white;
+    margin-top:50px;
+}
+
+@media screen and (max-width: 950px) {
+
+    #ajuste{
+        margin-top:50px;
+    }
+
+    #imgLogo{
+        width: 42vh;
+        height: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .texto{
+        margin-left: 1vh;
+        font-size: 3vh;
+    }
+}
